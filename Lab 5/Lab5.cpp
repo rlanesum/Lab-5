@@ -68,7 +68,7 @@ void gameLoop(int& randomNum, string question)
 			//If statement to test if the user guesses the same number as the random number generator, if they did the loop ends and wins variable increments.
 			if (answer == randomNum)
 			{
-				wins++;
+				wins++;//Win vvariable will increase every time the user guesses right 
 				cout << "CPU's guess: " << randomNum << endl;
 				cout << "Your guess: " << answer << endl;
 				switch_Win();//winning statement will be outputted by the function
